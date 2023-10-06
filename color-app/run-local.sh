@@ -1,0 +1,1 @@
+docker run --env COLOR=purple -p 8080:8080 color-app:dev

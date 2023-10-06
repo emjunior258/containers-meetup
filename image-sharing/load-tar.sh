@@ -1,0 +1,1 @@
+docker load color-app.tar
