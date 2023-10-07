@@ -1,4 +1,5 @@
 FROM denoland/deno:alpine-1.37.1
+
 EXPOSE 8080
 WORKDIR /app
 ENV COLOR=blue

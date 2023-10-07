@@ -1,8 +1,9 @@
 const port = 8080;
 
 let color = Deno.env.get("COLOR");
+
 if(color == undefined)
-    color = "orange";
+    color = "red";
 
 const handler = (request: Request): Response => {
 
@@ -21,5 +22,4 @@ const handler = (request: Request): Response => {
     });
 };
 
-// console.log(`HTTP server Listening at: http://localhost:8080/`);
 Deno.serve({ port }, handler);
