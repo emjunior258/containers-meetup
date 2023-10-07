@@ -5,7 +5,7 @@ networks:
 services:
 
   red:
-    image: "color-app:sb"
+    image: "emjunior/color-app:sb"
     environment:
       COLOR: "red"
     networks:
@@ -14,7 +14,7 @@ services:
           - red
 
   green:
-    image: "color-app:sb"
+    image: "emjunior/color-app:sb"
     environment:
       COLOR: "green"
     networks:
@@ -23,7 +23,7 @@ services:
           - green
 
   blue:
-    image: "color-app:sb"
+    image: "emjunior/color-app:sb"
     environment:
       COLOR: "blue"
     networks:
